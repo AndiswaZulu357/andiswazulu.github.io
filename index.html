@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andiswa Zulu | Futuristic Portfolio</title>
+    <title>Andiswa Zulu | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -903,17 +903,17 @@
                 <h2>Full Stack Developer & Creative Thinker</h2>
                 <p>Welcome to my digital portfolio! I'm a final year Computer Science student passionate about creating innovative solutions that make a difference.</p>
                 <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/andiswa-zulu-408467292/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/AndiswaZulu357" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
                 <a href="#contact" class="cta-button">Get In Touch</a>
-                <a href="#" class="download-cv">Download CV</a>
+                <a href="andiswa_zulu_cv.pdf" class="download-cv" download="Andiswa_Zulu_CV.pdf">Download CV</a>
             </div>
             <div class="profile-container">
                 <div class="profile-img-container">
                     <div class="paint-splash"></div>
-                    <!-- Try different image paths if this doesn't work -->
-                    <img src="C:\Users\asimd\OneDrive\Desktop\Andiswas Portfolio\Andiswa.jpg" alt="Andiswa.jpg" class="profile-img floating" onerror="this.style.display='none'; document.getElementById('profile-placeholder').style.display='flex';">
+                    <!-- Updated image path -->
+                    <img src="images/andiswa.jpg" alt="Andiswa Zulu" class="profile-img floating" onerror="this.style.display='none'; document.getElementById('profile-placeholder').style.display='flex';">
                     <div id="profile-placeholder" class="profile-placeholder floating" style="display: none;">
                         <i class="fas fa-user"></i>
                     </div>
@@ -1035,8 +1035,8 @@
                     <p>Eduvos</p>
                     <p>Maintaining 80%+ average in final year</p>
                     <div class="education-description">
-                        <!-- Space for description about what you've done -->
-                        <p>During my Computer Science degree, I've focused on software development, algorithms, and data structures. I've completed projects in various programming languages and gained practical experience in both frontend and backend development.</p>
+                        
+                        <p>During my Computer Science degree, I've focused on software development, algorithms, and data structures. I've completed projects in various programming languages and gained practical experience in both frontend and backend development. Relevant modules would be Object oriented Programming in C++, C# and Java. For front end developing I gained comprehensive knowledge on skills like HTML5, CSS and JavaScript and for backend I learned SQL dor data handling. </p>
                     </div>
                 </div>
             </div>
@@ -1087,6 +1087,25 @@
     <section id="projects">
         <h2 class="section-title">Projects</h2>
         <div class="projects-container">
+            <!-- Dokotela Online Project -->
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(135deg, #4CAF50, #2196F3);">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Dokotela Online Telemedicine</h3>
+                    <p>A comprehensive telemedicine platform built with PHP, HTML, CSS, and JavaScript. Features include online consultations, appointment booking, patient management, and secure doctor-patient communication.</p>
+                    <div style="margin-bottom: 1rem;">
+                        <span style="background: rgba(106, 17, 203, 0.3); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">PHP</span>
+                        <span style="background: rgba(37, 117, 252, 0.3); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">JavaScript</span>
+                        <span style="background: rgba(255, 42, 109, 0.3); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">CSS</span>
+                        <span style="background: rgba(5, 217, 232, 0.3); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">MySQL</span>
+                    </div>
+                    <a href="https://www.dokotelaonline.xyz/telemedicine/index.php#home" class="project-link" target="_blank">View Live Site →</a>
+                </div>
+            </div>
+            
+            <!-- Hospital Management System Project -->
             <div class="project-card">
                 <div class="project-img">
                     <i class="fas fa-hospital"></i>
@@ -1094,9 +1113,14 @@
                 <div class="project-content">
                     <h3>Hospital Management System</h3>
                     <p>A comprehensive C# console application that manages hospital operations including patient admissions, bed allocation, discharges, and search functionality using multi-dimensional arrays.</p>
+                    <div style="margin-bottom: 1rem;">
+                        <span style="background: rgba(106, 17, 203, 0.3); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">C#</span>
+                        <span style="background: rgba(37, 117, 252, 0.3); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">Console App</span>
+                    </div>
                     <a href="https://github.com/AndiswaZulu357/hospital-management-system-csharp" class="project-link" target="_blank">View Project →</a>
                 </div>
             </div>
+            
             <!-- Add more project cards here as you complete more projects -->
         </div>
     </section>
@@ -1139,11 +1163,15 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fab fa-linkedin contact-icon"></i>
-                        <a href="#" class="contact-link">LinkedIn Profile</a>
+                        <a href="https://www.linkedin.com/in/andiswa-zulu-408467292/" class="contact-link" target="_blank">LinkedIn Profile</a>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope contact-icon"></i>
                         <a href="mailto:andiswa.ndabezitha@gmail.com" class="contact-link">andiswa.ndabezitha@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <span class="contact-link">073 832 0323</span>
                     </div>
                 </div>
                 <a href="mailto:andiswa.ndabezitha@gmail.com" class="hire-me">Hire Me</a>
@@ -1153,7 +1181,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Andiswa Zulu. All Rights Reserved.</p>
+        <p>&copy; 2025 Andiswa Zulu. All Rights Reserved.</p>
     </footer>
 
     <script>
@@ -1229,7 +1257,7 @@
                 section.style.transform = 'translateY(0)';
             });
             
-            // Check if profile image loaded correctly
+            
             const profileImg = document.querySelector('.profile-img');
             if (profileImg.naturalWidth === 0) {
                 // Image failed to load
